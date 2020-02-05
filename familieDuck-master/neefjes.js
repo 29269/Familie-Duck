@@ -31,6 +31,7 @@ function kleurinfo(){
  document.getElementById('titel').style.color = this.dataset.kleur;
  document.getElementById('informatie').style.color = this.dataset.kleur;
  document.getElementById('infor').style.border = '5px solid' +this.dataset.kleur ;
+ this.style.border = '5px solid' +this.dataset.kleur ;
 }
 // function balltjes(){
 // // document.getElementsByClassName('duck').innerHTML = this.dataset.clicks;
